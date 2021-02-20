@@ -21,11 +21,11 @@ new Vue({
         this.students.push({
           id: this.defaultLastId += 1,
           name: this.name,
-          cource: this.cource,
+          course: this.course,
           acceptancePeriod: this.acceptancePeriod
         })
         this.name = ''
-        this.cource = ''
+        this.course = ''
         this.acceptancePeriod = ''
     }
   }
